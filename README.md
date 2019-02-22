@@ -1,4 +1,4 @@
-codeigniter-currency-converter V 1.3.1
+codeigniter-currency-converter V 1.3.2
 ==============================
 
 [![Code Quality](https://scrutinizer-ci.com/g/alessandrominoccheri/codeigniter-currency-converter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alessandrominoccheri/codeigniter-currency-converter/badges/quality-score.png?b=master)
@@ -89,6 +89,14 @@ function convert($from_Currency, $to_Currency, $amount, $save_into_db = 1, $hour
 * hourDifference: is the hour difference to update your currency conversion. For example if you have set to update currency rates every hour, this library get the currency conversion from fixer.io the first time, store it inside the database and for the next hour it takes conversion rates from the database if exist.
 
 ---
+
+
+# Api KEY
+
+To use this library you need to add your api key inside the configuration.
+to get your api key go to this site and generate it.
+
+[Generate your api key](https://www.currencyconverterapi.com/)
 
 ---
 ## License
